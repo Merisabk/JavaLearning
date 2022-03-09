@@ -13,8 +13,7 @@ public class HelloWorld {
 	public String concatText(String x, String y) {
 		return x+ " " +y;
 	}
-	 
-
+	
 
 	
 
