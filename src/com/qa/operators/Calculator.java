@@ -2,28 +2,23 @@ package com.qa.operators;
 
 public class Calculator {
 	
-	int numberOne = 25;
-	int numberTwo = 5;
-	
-	public void methodOne() {
-		int result = numberOne + numberTwo;
-		System.out.println(result);
-		}
-	
-
-	public void methodTwo() {
-		int result = numberOne * numberTwo;
-		System.out.println(result);
+	public int add(int a, int b) {
+		return a + b;
+		
 	}
 	
-	public void methodThree() {
-		int result = numberOne - numberTwo;
-		System.out.println(result);
+	public int sub(int a, int b) {
+		return a - b;
+		
 	}
 	
+	public int mul(int a, int b) {
+		return a * b;
+		
+	}
 	
-	public void methodFour() {
-		double result = numberOne / numberTwo;
-		System.out.println(result);
+	public double div(double a, double b) {
+		return a / b;
+		
 	}
 }
