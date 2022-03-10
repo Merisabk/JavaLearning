@@ -18,7 +18,16 @@ public class Calculator {
 	}
 	
 	public double div(double a, double b) {
-		return a / b;
+		if (a < b) {
+			return a / b;
+			} 
+		else {
+			return a;
+		}
+		
+		
+		
 		
 	}
-}
+
+	}

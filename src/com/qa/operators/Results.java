@@ -6,6 +6,7 @@ public class Results {
 	public int biology;
 	public int total;
 	public int percentage;
+	public int passMark;
 	
 	public void methodOne() {
 		System.out.println("Physics:   " + physics);
