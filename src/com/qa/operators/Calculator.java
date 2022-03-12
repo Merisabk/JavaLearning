@@ -16,10 +16,21 @@ public class Calculator {
 		return a * b;
 		
 	}
+	
+	
 	public double div(double a, double b) {
-		return a / b;
-		
+		if (a < b) {
+			double x = a;
+			double y = b;
+			return x/y;
+		} else
+		System.out.println("Division cannot be made");
+		return 0;
 	}
+
+
+
+	
 }
 
 

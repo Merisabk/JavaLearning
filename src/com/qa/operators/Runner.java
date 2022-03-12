@@ -29,17 +29,18 @@ public class Runner {
 		
 //		numTwo += 1; // numTwo = numTwo + 1;
 //		System.out.println(numTwo);
-
+//
 		Calculator c = new Calculator();
-		System.out.println(c.add(5, 10));
-		System.out.println(c.sub(10, 5));
-		System.out.println(c.mul(5, 5));
-		System.out.println(c.div(25,4));
+//		System.out.println(c.add(5, 10));
+//		System.out.println(c.sub(10, 5));
+//		System.out.println(c.mul(5, 5));
+//		System.out.println(c.div(25,4));
+		System.out.println(c.div(20, 10.6));
 	
 //		
-		Results r = new Results(100, 150, 90);
-		r.methodOne();
-		r.methodTwo();
+//		Results r = new Results(100, 150, 90);
+//		r.methodOne();
+//		r.methodTwo();
 		
 	}
 }
