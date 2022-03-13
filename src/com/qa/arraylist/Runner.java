@@ -1,21 +1,11 @@
 package com.qa.arraylist;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Runner { 
 	public static void main(String[] args) {
 		
-		List<String> employees = new ArrayList<>();
+		Arraylist a = new Arraylist();
+		a.methodOne();
 		
-		employees.add("John Julia, Cassia, Accacia, Ruth");
-		
-		System.out.println(employees);
-		System.out.println();
-		
-		for (int i = 0; i <= employees.size(); i++) {
-		System.out.println(employees.get(i));
-		}
 		
 	
 	}
