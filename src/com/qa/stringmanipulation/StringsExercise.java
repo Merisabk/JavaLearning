@@ -20,8 +20,6 @@ public class StringsExercise {
    // System.out.println(c.indexOf("RAI"));
 	System.out.println(c.substring(0, 12)+ c.substring(35, 42));
 	
-	int stringWords = a.length();
-	System.out.println(stringWords);
 	
 	
 	

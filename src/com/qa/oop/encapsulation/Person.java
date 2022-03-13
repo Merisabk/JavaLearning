@@ -2,16 +2,13 @@ package com.qa.oop.encapsulation;
 
 public class Person {
 	
-
-	
 	private String name;
 	private int age;
 	private String jobTitle;
 	
-	public void methodOne() {
-		System.out.println("Name:      " + name);
-		System.out.println("Age:       " + age);
-		System.out.println("Job Title: " + jobTitle);
+	public String toString() {
+		String myString = "Name: " + name + "\n" + "Age: " + age + "\n" + "Job Title: " + jobTitle;
+		return myString;
 	}
 	 
 	public Person(String name, int age, String jobTitle) {
@@ -19,6 +16,8 @@ public class Person {
 		this.age = age;
 		this.jobTitle = jobTitle;
 	}
+	
+	// to access the properties - right-click source/ generate getters and setters. 
 
 	public String getName() {
 		return name;
