@@ -43,10 +43,5 @@ public class Person {
 		String myString = "Name: " + name + "\n" + "Age: " + age + "\n" + "Job Title: " + jobTitle;
 		return myString;
 	}
-
-
-
-	 
-
 	
 }
