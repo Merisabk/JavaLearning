@@ -1,25 +1,32 @@
 package com.qa.oop.encapsulation;
 
+
 public class Runner {
 
 	public static void main(String[] args) {
-			
-			Lists l = new Lists();
-			l.method1();
-			
-
-			Person aidan = new Person("Aidan", 27, "Doctor");
-			Person guinn = new Person("Guinn", 30, "Nurse");
-			Person eliza = new Person("Eliza", 22, "UX designer");
+		
+		
 		
 			
+			Person aidan = new Person("Aidan", 27, "Doctor");
+			Person guinn = new Person("Guinn", 30, "Actress");
+			Person eliza = new Person("Eliza", 22, "UX designer");
+			Person monika = new Person("Monika", 28, "UX designer");
 			
-			System.out.println(aidan.toString());
+			PersonManager pm = new PersonManager();
+			pm.add(aidan);
+			pm.add(guinn);
+			pm.add(eliza);
+			pm.add(monika);
+
+			System.out.println(aidan);
 			System.out.println();
-			System.out.println(guinn.toString());
+			System.out.println(guinn);
 			System.out.println();
-			System.out.println(eliza.toString());
-			
+			System.out.println(eliza);
+			System.out.println();
+			System.out.println(monika);
+		
 	}
 
 }
