@@ -20,9 +20,15 @@ public class StringsExercise {
    // System.out.println(c.indexOf("RAI"));
 	System.out.println(c.substring(0, 12)+ c.substring(35, 42));
 	
-	
-	
-	
+
+//		Method 1 - When given a String, count and return how many words there are in that String.
+		c.strip();
+		String[] c = word.split(" "); 
+		return c;
+
+//		Method 2 - When given a String, print out this String in a vertical fashion, each word on a different line.
+//		Method 3 - When given a String, print out this String in a vertical fashion in reverse order, each word on a different line.
+//		Method 4 - A find method, which takes 2 Strings; the first is message and the second is the String you want to find in the message. A boolean value should be returned to indicate whether or not the second String has been found in the message.
 	
 	}
 	
