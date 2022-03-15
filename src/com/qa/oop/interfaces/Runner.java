@@ -1,4 +1,4 @@
-package com.qa.oop.inheritance;
+package com.qa.oop.interfaces;
 
 public class Runner {
 	
@@ -13,14 +13,11 @@ public class Runner {
 		garage.addVehicle(bike);
 		garage.addVehicle(van);
 		garage.calculateBill();
-		garage.printAll();
 		garage.removeVehicle(car);
 		garage.printAll();
-
+	
+//		garage.fixVehicle(bike);
 		garage.emptyGarage();
-		garage.printAll();
-		garage.removeVehicleByType("bike");
-		garage.printAll();
 	
 
 //		Dog dog = new Dog (15, 4, "black", "husky", false);
